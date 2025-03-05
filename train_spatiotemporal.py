@@ -70,7 +70,6 @@ def train():
     return loss_all/len(train_dataset), correct/len(train_dataset)*100
 
 def test():
-    global best_loss
     model.eval()
     correct=0
     out_list=[]
